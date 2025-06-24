@@ -7,11 +7,11 @@ import os
 
 # === CẤU HÌNH ===
 CSV_INPUT = 'ecg_data.csv'  # File đầu vào
-CSV_OUTPUT = 'ecg_processed.csv'  # File đầu ra
+CSV_OUTPUT = 'ecg_processed1.csv'  # File đầu ra
 FS = 100  # Tần số lấy mẫu (Hz), dựa trên delay(10) trong mã ESP32 (~100Hz)
 LOWCUT = 5.0  # Tần số cắt thấp (Hz)
 HIGHCUT = 40.0  # Tần số cắt cao (Hz)
-WAVELET = 'coif3'  # Wavelet cho khử nhiễu
+WAVELET = 'db6'  # Wavelet cho khử nhiễu
 LEVEL = 4  # Mức phân rã wavelet
 
 # === HÀM BỘ LỌC THÔNG DẢI ===
